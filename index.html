@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--page setup-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Generateur de citation</title>
+<!--  bootstrap and css setup -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Francois+One|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Générateur de Citation</h1>
+    </header>
+
+    <section class="container-fluid" id="citation">
+      <div class="row justify-content-around">
+        <div id="container" class="citation1" class="col-4">
+          <table class="table">
+            <thead>
+              <h2>Générateur pas de sens</h2> 
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
+    <!--     deuxieme table -->
+        <div id="container" class="citation2" class="col-4">
+          <table class="table">
+            <thead>
+              <h2>Générateur pourri</h2> 
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+      </div>  
+    </section>
+
+    <div class="container" id="sectionChoice">
+      <div class="row">
+        <!-- <div class="form-group"> -->
+        <div class="col">
+          <div class="form-group">
+            <label for="numberGenerator">Veuillez choisir le générateur</label>
+            <select class="form-control" id="numberGenerator">
+              <option value="1">Générateur pas de sens</option>
+              <option value="2">Générateur pourri</option>
+            </select>
+          </div> 
+        </div>
+        <div class="col"> 
+          <div class="form-group"> 
+            <label for="numberCitation">Combien de citations que vous avez besoin ?</label>
+            <select class="form-control" id="numberCitation">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>  
+        </div>
+        <div class="col">  
+          <button type="button" id="generateAction" class="btn btn-secondary">Générer ma citation</button>
+        </div>
+      </div>  
+    </div>
+
+
+    <div>
+      <textarea rows="5" cols="50" id="text">
+        
+      </textarea>
+       
+    </div>
+
+    <!-- <footer>
+      <p>Ce site a été réalisé par Wei CHIRON dans le cadre du parcours Développeur d’applications Frontend d’OpenClassrooms.</p>
+    </footer> -->
+<!-- script setup jQuery before bootstrap -->
+    <script 
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+  
+<!-- jQuery code starts here -->
+  </body>
+</html>

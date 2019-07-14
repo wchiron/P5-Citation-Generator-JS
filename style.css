@@ -1,0 +1,47 @@
+header {
+	background-color: rgb(13, 83, 76);
+	font-family: 'Francois One', sans-serif;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 4px #d1d1e0 solid;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: rgb(13, 83, 76);
+	font-size: 2rem;
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+}
+
+#citation {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+
+td {
+	width: 170px;
+	text-align: center;
+}
+#generateAction {
+	margin-top: 30px;
+	margin-left: 35px;
+	background-color: rgb(13, 83, 76);
+}
+/* footer {
+    bottom: 0;
+    width: 100%;
+	text-align: center;
+	color: #fff;
+	background-color: #646c77;
+	height: 50px;
+	padding-top: 10px;
+} */
